@@ -4,7 +4,7 @@
 </div>
 
 <p align="center">
-<img src="harmonyTM.png?raw=true">
+<img src="HarmonyTM.png?raw=true">
 </p>
 
 
