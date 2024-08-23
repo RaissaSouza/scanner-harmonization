@@ -78,7 +78,12 @@ The code used for evaluation is in:
 │   ├── inference_sc.py #for single model scanner inference can be used for a centralized approach or a specific model in the travelling model 
 │   ├── inference_sc_distributed.py #iterate through all models saved (one per cycle) during travelling model training for scanner inference
 ```
+## Important
+Every .py file has its own arguments, such as path for training_set, test_set, number of cycles, number of epochs, batch_size, etc. Therefore, to run each file, just change its arguments and run as the following example:
 
+```
+python end_PD_train_pd.py -fn_train ./training_set.csv -fn_test ./testing_set.csv -batch_size 5
+```
 
 ## Environment 
 Our code for the Keras model pipeline used: 
